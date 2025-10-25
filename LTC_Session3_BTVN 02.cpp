@@ -1,16 +1,9 @@
 #include <stdio.h>
-
-int main() {
-    float celsius;
-    float fahrenheit;
-
-    printf("Nhap nhiet do (do Celsius): ");
-    scanf("%f", &celsius);
-
-    fahrenheit = celsius * 9 / 5 + 32;
-
-    printf("Nhiet do tuong ung theo do Fahrenheit la: %.2f\n", fahrenheit);
-
-    return 0;
+int main (){
+	float celcius ;
+	printf("Nhap nhiet do :");
+	scanf("%f",&celcius) ;
+	float fahrenheit = (celcius * 9 / 5 + 32);
+	printf("%.2f",fahrenheit) ;
+	return 0 ;
 }
-
